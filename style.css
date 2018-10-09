@@ -28,7 +28,7 @@
   .info {
    position: fixed;
    left: 0; 
-   bottom: 0;  
+   bottom: -75px;  
    height: 70px;
    line-height: 70px;
    width: 100%;
@@ -37,4 +37,7 @@
    font-size: 30px;   
    text-align: center;   
    transition: .8s;
+  }
+  .info.active {
+    bottom: 0;
   }
